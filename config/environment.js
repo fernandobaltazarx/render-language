@@ -24,7 +24,7 @@ module.exports = function(environment) {
       'style-src': "'self' 'unsafe-inline' maxcdn.bootstrapcdn.com",
       'font-src': "'self' data: maxcdn.bootstrapcdn.com",
       'img-src': "'self' camo.githubusercontent.com www.google-analytics.com",
-      'connect-src': "'self' https://render-language.herokuapp.com wss://render-language.herokuapp.com",
+      'connect-src': "'self' https://webrtc-translate-signalmaster.herokuapp.com wss://webrtc-translate-signalmaster.herokuapp.com",
       'media-src': "'self' blob:",
       'object-src': "'self'"
     },
