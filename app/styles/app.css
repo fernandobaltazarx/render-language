@@ -59,6 +59,10 @@ video {
   height: auto;
 }
 
+div {
+  position: relative;
+}
+
 .videos {
   position: relative;
   max-width: 100%;
@@ -67,6 +71,7 @@ video {
 
 .videos.remote-video-off #local-video {
 }
+
 
 .videos.remote-video-off #remote-video {
   position: absolute;
@@ -83,6 +88,10 @@ video {
 }
 
 .videos.remote-video-on #local-video {
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: -100;
 }
 
 .message {
