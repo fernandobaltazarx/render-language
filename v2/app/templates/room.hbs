@@ -1,0 +1,33 @@
+<div class="row">
+  <div class="col-sm-3 text-center">
+    <div class="language language-local">
+      <div class="language-select">
+        {{language-select content=recognition.languages action=(action (mut localSpeechLanguage))}}
+        {{language-flag language=localSpeechLanguage}}
+      </div>
+    </div>
+  </div>
+  <div class="col-sm-6 text-center">
+    <div class="videos {{if isRemoteVideo 'remote-video-on' 'remote-video-off'}}">
+      <div id="local-video"></div>
+      <div id="remote-video"></div>
+    </div>
+    {{start-speech-recognition-button language=localSpeechLanguage stream=localMediaStream}}
+  </div>
+  <div class="col-sm-3 text-center">
+    <div class="language language-remote">
+      <div>
+        {{remoteSpeechLanguage}}
+        {{language-flag language=remoteSpeechLanguage}}
+      </div>
+    </div>
+  </div>
+</div>
+
+{{message-list messages=messages}}
+
+<hr>
+
+<form {{action "handleChatMessage" on="submit"}} class="chat-form text-center">
+  {{input value=chatMessage.originalContent placeholder="Type a message here"}}
+</form>

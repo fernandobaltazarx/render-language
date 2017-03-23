@@ -1,0 +1,22 @@
+body{
+  width: 600px;
+  margin: 0 auto;
+  border: 5px sold tomato;
+}
+
+.users{
+  float: right;
+  margin-right: 1.5em;
+}
+
+.messages {
+  width: 400px;
+  margin: 1em;
+  border: 1px solid black;
+  padding: 1em;
+}
+
+.mssage_form,
+.change_name_form {
+  padding: 1em;
+}
