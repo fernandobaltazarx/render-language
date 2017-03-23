@@ -1,0 +1,33 @@
+{
+  "name": "render-language",
+  "version": "0.0.0",
+  "description": "Small description for render-language goes here",
+  "private": true,
+  "directories": {
+    "doc": "doc",
+    "test": "tests"
+  },
+  "scripts": {
+    "build": "ember build",
+    "start": "ember server",
+    "test": "ember test"
+  },
+  "repository": "",
+  "engines": {
+    "node": ">= 7.7.4"
+  },
+  "author": "",
+  "license": "MIT",
+  "devDependencies": {
+    "broccoli-asset-rev": "^2.5.0",
+    "broccoli-concat": "^3.2.2",
+    "ember-ajax": "^2.5.6",
+    "ember-cli": "^2.12.1",
+    "ember-cli-htmlbars": "^1.2.0",
+    "ember-data": "^2.12.1",
+    "ember-export-application-global": "^1.1.1",
+    "ember-load-initializers": "^0.6.3",
+    "ember-resolver": "^3.0.0",
+    "loader.js": "^4.2.3"
+  }
+}
