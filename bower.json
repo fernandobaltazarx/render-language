@@ -1,20 +1,9 @@
 {
   "name": "render-language",
   "dependencies": {
-
-    "broccoli-asset-rev": "^2.5.0",
-    "ember-ajax": "^2.5.6",
-    "ember-cli": "^2.12.1",
-    "ember-data": "^2.12.1",
-    "ember-export-application-global": "^1.1.1",
-    "ember-load-initializers": "^0.6.3",
-    "ember-resolver": "^3.0.0",
-    "ember-cli-shims": "^1.0.2",
-    "loader.js": "^4.2.3",
-    "ember-cli-test-loader": "^1.1.1",
-    "ember-qunit": "^1.0.0",
-    "jquery": "^3.2.1",
-    "qunit": "~1.18.0",
-    "tether-shepherd": "~1.1.4"
+    "ember": "~2.4.3",
+    "ember-cli-shims": "0.1.1",
+    "ember-cli-test-loader": "0.2.2",
+    "ember-qunit-notifications": "0.1.0"
   }
 }
