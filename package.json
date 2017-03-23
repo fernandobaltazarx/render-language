@@ -1,6 +1,6 @@
 {
   "name": "webrtc-translate",
-  "version": "0.0.0",
+  "version": "0.1.0",
   "description": "Small description for webrtc-translate goes here",
   "private": true,
   "directories": {
@@ -14,7 +14,7 @@
   },
   "repository": "",
   "engines": {
-    "node": ">= 0.10.0"
+    "node": ">= 0.12.18"
   },
   "author": "",
   "license": "MIT",
