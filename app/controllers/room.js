@@ -50,7 +50,7 @@ export default Ember.Controller.extend({
         // Initialize WebRTC
         const webrtc = new window.SimpleWebRTC({
             enableDataChannels: true,
-            url: 'https://webrtc-translate-signalmaster.herokuapp.com:443',
+            url: 'https://render-language.herokuapp.com:443',
             debug: false
         });
 

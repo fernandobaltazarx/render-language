@@ -304,7 +304,7 @@ define('webrtc-translate/controllers/room', ['exports', 'ember', 'webrtc-transla
             // Initialize WebRTC
             var webrtc = new window.SimpleWebRTC({
                 enableDataChannels: true,
-                url: 'https://webrtc-translate-signalmaster.herokuapp.com:443',
+                url: 'https://render-language.herokuapp.com:443',
                 debug: false
             });
 
