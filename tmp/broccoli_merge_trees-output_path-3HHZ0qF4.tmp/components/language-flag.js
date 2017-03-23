@@ -1,1 +1,0 @@
-/Users/fernando/homework/final-project/render-language/app/components/language-flag.js
