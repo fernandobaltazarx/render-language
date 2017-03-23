@@ -11,7 +11,7 @@ export default Ember.Service.extend({
         });
 
         tour.addStep('step-1', {
-            title: 'Welcome to WebRTC Translate!',
+            title: 'Welcome to Render.Language!',
             text: 'This app allows you to have a 1-to-1 video call and will translate what the other person is saying.',
             buttons: [{
                 text: 'Next',

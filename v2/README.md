@@ -1,6 +1,6 @@
-# WebRTC Translate
+# RenderLang Translate
 
-Highly experimental (read: "barely working") app that uses WebRTC API and WebSpeech API to provide almost (read: "not really") real-time translations during a video call. At the moment it works only in Chrome, though there's an experimental Web Speech Recognition API implementation in Firefox Nightly, so it's possible that it will work in Firefox soon as well. The UI was inspired by [iTranslate](http://www.itranslateapp.com) app. If you want to host it yourself, you'll need a Google Translate API key.
+Highly experimental (read: "barely working") app that uses RenderLang API and WebSpeech API to provide almost (read: "not really") real-time translations during a video call. At the moment it works only in Chrome, though there's an experimental Web Speech Recognition API implementation in Firefox Nightly, so it's possible that it will work in Firefox soon as well. The UI was inspired by [iTranslate](http://www.itranslateapp.com) app. If you want to host it yourself, you'll need a Google Translate API key.
 
 
 
