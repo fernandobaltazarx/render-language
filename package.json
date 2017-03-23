@@ -8,7 +8,7 @@
     "test": "tests"
   },
   "scripts": {
-    "build": "npm install -g ember-cli && ember build",
+    "build": "ember build",
     "start": "ember server",
     "test": "ember test"
   },

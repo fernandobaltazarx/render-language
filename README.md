@@ -1,5 +1,8 @@
 ## Installation
 
+Heroku:
+heroku create --buildpack https://github.com/tonycoco/heroku-buildpack-ember-cli.git
+
 * `git clone <repository-url>` this repository
 * change into the new directory
 * `npm install`
