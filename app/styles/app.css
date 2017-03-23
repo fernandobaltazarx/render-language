@@ -3,7 +3,7 @@ body {
 }
 
 .container {
-  max-width: 640px;
+  max-width: 800px;
 }
 
 .vertical-center {
@@ -13,8 +13,8 @@ body {
   left: 0;
   right: 0;
   margin: auto;
-  width: 70%;
-  height: 30%;
+  width: 90%;
+  height: 70%;
 }
 
 [data-ember-action] {
@@ -31,12 +31,12 @@ body {
 }
 
 .circle {
-  border-radius: 50%;
+  border-radius: 60%;
 }
 
 .language {
   display: inline-block;
-  width: 140px;
+  width: 280px;
 }
 
 .status {
@@ -47,7 +47,7 @@ body {
 }
 
 .status.status-on {
-  background-color: green;
+  background-color: gray;
 }
 
 .status.status-off {
@@ -61,7 +61,7 @@ video {
 
 .videos {
   position: relative;
-  max-width: 360px;
+  max-width: 100%;
   margin: auto;
 }
 
@@ -72,14 +72,14 @@ video {
   position: absolute;
   bottom: 0;
   right: 0;
-  width: 80px;
+  width: 120px;
 }
 
 .videos.remote-video-on #local-video {
   position: absolute;
   bottom: 0;
   right: 0;
-  width: 80px;
+  width: 120px;
 }
 
 .videos.remote-video-on #local-video {
@@ -109,23 +109,23 @@ video {
 }
 
 .message .original-content {
-  background-color: #D0D0D0;
+  background-color: blue;
   color: black;
 }
 
 .message .translated-content {
-  background-color: #00A5FF;
+  background-color: black;
   color: white;
 }
 
 .speech-recognition-button {
   margin: auto;
-  width: 64px;
+  width: 80px;
 }
 
 .chat {
   max-width: 640px;
-  max-height: 300px;
+  max-height: 640px;
   margin: 20px auto 0;
   padding: 0 70px;
   overflow-y: scroll;
