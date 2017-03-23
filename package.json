@@ -26,7 +26,6 @@
     "ember-export-application-global": "^1.1.1",
     "ember-load-initializers": "^0.6.3",
     "ember-resolver": "^3.0.0",
-    "ember-cli-shims": "^1.0.2",
     "loader.js": "^4.2.3"
   }
 }
